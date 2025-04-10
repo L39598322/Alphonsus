@@ -1,0 +1,69 @@
+/* Beginning of Code -- !OWN CODE! */
+
+/*Hides overflow of text in a page*/
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+/*Hiding the scrollbar*/
+::-webkit-scrollbar {
+    width: 0;
+}
+/* Header Styling */
+header {
+    display: flex;
+    border-bottom: 3px solid;
+}
+/* Logo Heading Styling */
+.logo h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: auto;
+}
+/* Logo Positioning */
+.logo {
+    display: flex;
+}
+/* Logo Image Display Setting */
+.logo img{
+    max-width: 120px;
+    max-height: 120px;
+}
+/* Classes Radio Buttons Positioning & Text Display settings */
+.classes {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+/* Showdata Link Positoning */
+.Showdata {
+    text-align: center;    
+}
+/* Showdata text display settings */
+.Showdata a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* Showdata text hover display settings */
+.Showdata a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Hiding all Home pageforms */
+#pupilform, #teacherform, #parentform, #classesform, #teachingassistform, #familiesform{
+    display:none;
+}
+
+/* Hiding all Show Data tables */
+#pupilstable, #teacherstable, #parentstable, #classestable, #teachingassiststable, #familiestable{
+    display: none;
+}
+/* Putting all tables in the center along with text */
+.table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End of Code -- !OWN CODE! */
